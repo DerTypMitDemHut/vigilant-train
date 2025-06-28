@@ -1,0 +1,27 @@
+[
+  {
+    "frage": "Was versteht man unter Liquidität 1. Grades?",
+    "antwort": "Flüssige Mittel / kurzfristige Verbindlichkeiten * 100",
+    "kategorie": "BWL-Grundlagen"
+  },
+  {
+    "frage": "Nenne ein Beispiel für eine Praxisgründungsform",
+    "antwort": "Einzelpraxis, Gemeinschaftspraxis oder Praxisgemeinschaft",
+    "kategorie": "Praxisgründung"
+  },
+  {
+    "frage": "Welche Kostenart stellt die Miete dar?",
+    "antwort": "Fixkosten",
+    "kategorie": "Kostenrechnung"
+  },
+  {
+    "frage": "Wie heißt das Gesetz, das die Berufsrechte von Psychologen regelt?",
+    "antwort": "Psychotherapeutengesetz (PsychThG)",
+    "kategorie": "Berufsrecht"
+  },
+  {
+    "frage": "Was beschreibt die Gesundheitsökonomie?",
+    "antwort": "Sie untersucht die Ressourcenverteilung und Effizienz im Gesundheitswesen",
+    "kategorie": "Gesundheitsökonomie"
+  }
+]

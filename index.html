@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lern-App Klinische Psychologie</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Lern-App Klinische Psychologie - Management für Psychologen</h1>
+<nav id="menu">
+<button data-target="flashcards">Lernkarten</button>
+<button data-target="quiz">Quiz</button>
+<button data-target="math">Rechenaufgaben</button>
+<button data-target="editor">Editor</button>
+<button data-target="progress">Fortschritt</button>
+</nav>
+<div id="flashcards" class="panel hidden">
+<h2>Lernkarten</h2>
+<div id="flashcard-question"></div>
+<button id="show-answer">Antwort anzeigen</button>
+<div id="flashcard-answer" class="hidden"></div>
+<button id="knew">Ich wusste es</button>
+<button id="didnt-know">Ich wusste es nicht</button>
+<div id="flashcard-progress"></div>
+<label><input type="checkbox" id="shuffle"> Zufällige Reihenfolge</label>
+<select id="category-filter"></select>
+</div>
+<div id="quiz" class="panel hidden">
+<h2>Quiz</h2>
+<div id="quiz-container"></div>
+<div id="quiz-score"></div>
+</div>
+<div id="math" class="panel hidden">
+<h2>Rechenaufgaben</h2>
+<div id="math-container"></div>
+</div>
+<div id="editor" class="panel hidden">
+<h2>Editor</h2>
+<form id="editor-form">
+<label>Frage:<br><textarea id="editor-question" required></textarea></label><br>
+<label>Antwort:<br><textarea id="editor-answer" required></textarea></label><br>
+<label>Kategorie:<br><input type="text" id="editor-category"></label><br>
+<button type="submit">Speichern</button>
+</form>
+</div>
+<div id="progress" class="panel hidden">
+<h2>Fortschritt</h2>
+<div id="progress-stats"></div>
+<canvas id="progress-chart" width="400" height="200"></canvas>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>

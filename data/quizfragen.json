@@ -1,0 +1,19 @@
+[
+  {
+    "frage": "Welcher Bestandteil gehört nicht zur Bilanz?",
+    "typen": "mc",
+    "antworten": ["Aktiva", "Passiva", "GuV", "Eigenkapital"],
+    "loesung": 2
+  },
+  {
+    "frage": "Was ist ein Vorteil einer Gemeinschaftspraxis?",
+    "typen": "mc",
+    "antworten": ["Höhere Miete", "Geteilte Kosten", "Weniger Patienten", "Mehr Bürokratie"],
+    "loesung": 1
+  },
+  {
+    "frage": "Erklären Sie das Kostendeckungsprinzip.",
+    "typen": "offen",
+    "loesung": "Einnahmen decken die entstandenen Kosten vollständig ab"
+  }
+]
