@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+nav button {
+  background: #555;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+nav button:hover {
+  background: #777;
+}
+.panel {
+  padding: 20px;
+}
+.hidden {
+  display: none;
+}
+#flashcard-answer {
+  margin-top: 10px;
+  font-weight: bold;
+}
+progress {
+  width: 100%;
+}
